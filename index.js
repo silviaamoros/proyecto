@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const app = require("./app");
-const port = process.env.port || 3977;
+const port = process.env.PORT || 3977;
 const urlMongoAtlas = "mongodb+srv://admin:admin123456@silviadb.ari3a.mongodb.net/mydb";
 //Fichero para levantar el servidor
 mongoose.connect(urlMongoAtlas, (err,res) => {
