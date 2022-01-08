@@ -1,0 +1,19 @@
+{
+  "name": "mi_proyecto",
+  "version": "0.0.1",
+  "description": "Ejemplo de proyecto con Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Silvia Amorós Hernández",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
