@@ -7,7 +7,7 @@ async function createTask(req,res){
     task.description = params.description;
 
     try{
-        const taskStore = task.save();
+        const taskStore = await task.save();
 
         if(!taskStore){
             res.status(400).send({msg: "No se ha guardado la tarea"});
